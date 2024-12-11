@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Sports Event</title>
+    <style>
+        /* Reset default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Navbar Styles */
+        nav {
+            background: #965e5e;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            height:80px;
+        }
+
+        nav .logo h2 {
+            color: #fff;
+            font-size: 24px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #f39c12;
+        }
+
+        /* Hero Section Styles */
+        .hero {
+            background-image: url('https://executiveevents.in/Userfiles/services/bd7da85ccb1f46caa4cb864d7e260f6e.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 90vh;
+            color: rgb(247, 243, 241);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            margin-top: 80px; /* Account for fixed navbar */
+        }
+
+        .hero h1 {
+            font-size: 60px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 24px;
+            margin-bottom: 30px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .cta-button {
+            background-color: #f39c12;
+            color: white;
+            padding: 15px 40px;
+            text-decoration: none;
+            font-size: 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #e67e22;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">
+            <h2>Ultimate Sports Event</h2>
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#register">Register</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Get Ready for the Ultimate Sports Event!</h1>
+        <p>Join athletes from around the world for an exciting day of competition, fun, and community spirit. Don't miss out!</p>
+    </section>
+</body>
+</html>
